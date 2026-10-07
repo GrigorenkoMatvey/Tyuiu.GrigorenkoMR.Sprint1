@@ -10,6 +10,6 @@ public sealed class DataServiceTest
     {
         DataService ds = new DataService();
         var res = ds.Calculate();
-        Assert.AreEqual(-10,5, res);
+        Assert.AreEqual(-12, res);
     }
 }
